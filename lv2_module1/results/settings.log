@@ -1,0 +1,6 @@
+k 0.5
+P SET Kp=0.5000, Ki=0.0000, Kd=0.0000, speed_limit_deg_s=20.000, angle_deg=90.000
+v 5
+P SET Kp=0.5000, Ki=0.0000, Kd=0.0000, speed_limit_deg_s=5.000, angle_deg=90.000
+a 10
+P SET Kp=0.5000, Ki=0.0000, Kd=0.0000, speed_limit_deg_s=5.000, angle_deg=10.000

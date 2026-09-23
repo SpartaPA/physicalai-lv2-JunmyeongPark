@@ -1,0 +1,2 @@
+pa01@pa01:~/opencr-diagnosis$ ls -lh "$OPENCR_OUTPUT/opencr_position_p.ino.bin"
+-rwxrwxr-x 1 pa01 pa01 103K Sep 21 17:29 /home/pa01/opencr-diagnosis/build-20260921-17

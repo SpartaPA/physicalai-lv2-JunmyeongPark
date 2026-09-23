@@ -1,0 +1,14 @@
+pa01@pa01:~/opencr-diagnosis$ python3 -m serial.tools.miniterm /dev/ttyACM0 115200 --eol LF
+--- Miniterm on /dev/ttyACM0  115200,8,N,1 ---
+--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---
+Command too long; use help or scan.
+OPENCR_DIAGNOSTIC_V1: PING/READ only
+Connect ONE motor. Type scan then Enter (up to 60 s).
+Type help to show this banner. No motion/settings writes.
+SCAN_BEGIN
+TRY protocol=2 baud=57600
+TRY protocol=2 baud=1000000
+FOUND id=1 baud=1000000 protocol=2 model=1030
+SCAN_DONE: first motor found; settings unchanged.
+
+--- exit ---

@@ -1,0 +1,11 @@
+pa01@pa01:~/opencr-diagnosis$ UPLOADER="$HOME/pa-opencr-build/uploader-src/arduino/opencr_develop/opencr_ld/opencr_ld"
+
+if [ ! -x "$UPLOADER" ]; then
+  UPLOADER="$HOME/opencr-uploader-src/arduino/opencr_develop/opencr_ld/opencr_ld"
+fi
+
+ls -l "$UPLOADER" /dev/ttyACM0
+ls -lh "$OPENCR_OUTPUT/opencr_position_p.ino.bin"
+crw-rw---- 1 root dialout 166, 0 Sep 21 16:11 /dev/ttyACM0
+-rwxrwxr-x 1 pa01 pa01     38856 Sep 22  2026 /home/pa01/pa-opencr-build/uploader-src/arduino/opencr_develop/opencr_ld/opencr_ld
+-rwxrwxr-x 1 pa01 pa01 103K Sep 21 17:29 /home/pa01/opencr-diagnosis/build-20260921-172723/opencr_position_p.ino.bin

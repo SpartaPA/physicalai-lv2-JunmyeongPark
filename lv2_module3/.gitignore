@@ -1,0 +1,8 @@
+hsv_ws/bags/
+hsv_ws/out/
+hsv_ws/build/
+hsv_ws/install/
+hsv_ws/log/
+__pycache__/
+*.pyc
+.pytest_cache/

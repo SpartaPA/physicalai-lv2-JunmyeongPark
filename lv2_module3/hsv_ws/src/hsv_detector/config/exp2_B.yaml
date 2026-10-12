@@ -1,0 +1,16 @@
+/**:
+  ros__parameters:
+    label: exp2_B
+    h_lo: 100
+    h_hi: 125
+    s_lo: 120
+    s_hi: 255
+    v_lo: 40
+    v_hi: 255
+    hsv_lo2: [-1, -1, -1]
+    hsv_hi2: [-1, -1, -1]
+    min_area: 1500.0
+    min_circularity: 0.3
+    ema_alpha: 0.3
+    blur_ksize: 5
+    morph_ksize: 5
